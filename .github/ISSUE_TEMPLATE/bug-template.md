@@ -2,7 +2,7 @@
 name: bug template
 about: bug 전용 템플릿
 title: "[Bug] "
-labels: bug
+labels: bug, documentation
 assignees: gimn70009
 type: Bug
 
