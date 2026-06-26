@@ -1,20 +1,10 @@
 ---
-name: feature template
-about: feat 전용 템플릿
-title: '[Feat] '
+name: Feature
+about: 새로운 기능 구현 또는 화면 개발
+title: '[Feature] '
 labels: feature
 assignees: gimn70009
 type: Feature
----
-
----
-
-name: Feature
-about: 새로운 기능 구현 또는 화면 개발
-title: "[Feature] "
-labels: feature
-assignees: ''
-
 ---
 
 ## 📌 작업 개요
