@@ -1,8 +1,8 @@
 function HomePage() {
     return (
-        <main>
+        <section>
             <h1>홈 페이지</h1>
-        </main>
+        </section>
     )
 }
 

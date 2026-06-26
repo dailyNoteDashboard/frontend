@@ -1,8 +1,8 @@
 function DashboardPage() {
     return(
-        <main>
+        <section>
             <h1>대시보드 페이지</h1>
-        </main>
+        </section>
     )
 }
 

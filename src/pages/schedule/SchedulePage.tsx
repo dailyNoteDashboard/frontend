@@ -1,8 +1,8 @@
 function ScheudlePage() {
     return (
-        <main>
+        <section>
             <h1>일정 페이지</h1>
-        </main>
+        </section>
     )
 }
 
