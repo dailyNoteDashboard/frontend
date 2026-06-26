@@ -1,20 +1,10 @@
 ---
-name: bug template
-about: bug 전용 템플릿
-title: '[Bug] '
-labels: bug, documentation
-assignees: gimn70009
-type: Bug
----
-
----
-
 name: Bug
 about: 오류 또는 예상과 다른 동작 수정
-title: "[Bug] "
+title: '[Bug] '
 labels: bug
-assignees: ''
-
+assignees: gimn70009
+type: Bug
 ---
 
 ## 🐞 버그 설명
