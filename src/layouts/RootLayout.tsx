@@ -1,4 +1,4 @@
-import {Link, Outlet} from 'react-router-dom'
+import {NavLink, Outlet} from 'react-router-dom'
 
 function RootLayout() {
 
@@ -8,11 +8,11 @@ function RootLayout() {
                 <h1>나의 다이어리</h1>
 
                 <nav>
-                    <Link to="/">홈</Link>
+                    <NavLink to="/">홈</NavLink>
                     {' | '}
-                    <Link to="/schedule">일정</Link>
+                    <NavLink to="/schedule">일정</NavLink>
                     {' | '}
-                    <Link to="/dashboard">대시보드</Link>
+                    <NavLink to="/dashboard">대시보드</NavLink>
                 </nav>
             </header>
 
