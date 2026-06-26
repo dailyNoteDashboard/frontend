@@ -1,20 +1,10 @@
 ---
-name: chore template
-about: chore 전용 템플릿
+name: Chore
+about: 환경 설정, 패키지 설치, 폴더 구조 정리 등
 title: '[Chore] '
 labels: chore
 assignees: gimn70009
 type: Task
----
-
----
-
-name: Chore
-about: 환경 설정, 패키지 설치, 폴더 구조 정리 등
-title: "[Chore] "
-labels: chore
-assignees: ''
-
 ---
 
 ## 📌 작업 개요
