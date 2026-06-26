@@ -5,7 +5,7 @@ function RootLayout() {
     return(
         <>
             <header>
-                <h2>나의 다이어리</h2>
+                <h1>나의 다이어리</h1>
 
                 <nav>
                     <Link to="/">홈</Link>
