@@ -1,11 +1,10 @@
 ---
 name: bug template
 about: bug 전용 템플릿
-title: "[Bug] "
+title: '[Bug] '
 labels: bug, documentation
 assignees: gimn70009
 type: Bug
-
 ---
 
 ---
@@ -15,7 +14,8 @@ about: 오류 또는 예상과 다른 동작 수정
 title: "[Bug] "
 labels: bug
 assignees: ''
--------------
+
+---
 
 ## 🐞 버그 설명
 
@@ -39,17 +39,17 @@ assignees: ''
 
 ## 🖥 실행 환경
 
-* OS:
-* Browser:
-* Node version:
-* npm version:
+- OS:
+- Browser:
+- Node version:
+- npm version:
 
 ## 🛠 수정 필요 사항
 
 <!-- 예상되는 수정 방향이 있다면 작성해주세요. -->
 
-* [ ]
-* [ ]
+- [ ]
+- [ ]
 
 ## 💬 추가 내용
 
