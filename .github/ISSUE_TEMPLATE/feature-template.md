@@ -1,21 +1,11 @@
 ---
-name: feature template
-about: feat 전용 템플릿
-title: "[Feat] "
+name: Feature
+about: 새로운 기능 구현 또는 화면 개발
+title: '[Feature] '
 labels: feature
 assignees: gimn70009
 type: Feature
-
 ---
-
----
-
-name: Feature
-about: 새로운 기능 구현 또는 화면 개발
-title: "[Feature] "
-labels: feature
-assignees: ''
--------------
 
 ## 📌 작업 개요
 
@@ -29,17 +19,17 @@ assignees: ''
 
 <!-- 구현해야 할 내용을 체크리스트로 작성해주세요. -->
 
-* [ ]
-* [ ]
-* [ ]
+- [ ]
+- [ ]
+- [ ]
 
 ## ✅ 완료 조건
 
 <!-- 어떤 상태가 되면 이 이슈가 완료되었다고 볼 수 있는지 작성해주세요. -->
 
-* [ ]
-* [ ]
-* [ ]
+- [ ]
+- [ ]
+- [ ]
 
 ## 📎 참고 사항
 

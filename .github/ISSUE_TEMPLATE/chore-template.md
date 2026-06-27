@@ -1,21 +1,11 @@
 ---
-name: chore template
-about: chore 전용 템플릿
-title: "[Chore] "
+name: Chore
+about: 환경 설정, 패키지 설치, 폴더 구조 정리 등
+title: '[Chore] '
 labels: chore
 assignees: gimn70009
 type: Task
-
 ---
-
----
-
-name: Chore
-about: 환경 설정, 패키지 설치, 폴더 구조 정리 등
-title: "[Chore] "
-labels: chore
-assignees: ''
--------------
 
 ## 📌 작업 개요
 
@@ -25,22 +15,22 @@ assignees: ''
 
 <!-- 수행할 작업을 체크리스트로 작성해주세요. -->
 
-* [ ]
-* [ ]
-* [ ]
+- [ ]
+- [ ]
+- [ ]
 
 ## ✅ 완료 조건
 
 <!-- 작업이 완료되었다고 판단할 기준을 작성해주세요. -->
 
-* [ ]
-* [ ]
+- [ ]
+- [ ]
 
 ## 📁 변경 예상 파일
 
 <!-- 변경될 가능성이 있는 파일이나 폴더를 작성해주세요. -->
 
-*
+-
 
 ## 💬 참고 사항
 
