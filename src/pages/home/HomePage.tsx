@@ -1,8 +1,18 @@
+import { usePageNavigation } from '../../shared/hooks/usePageNavigation'
+
 function HomePage() {
+  const { goToSchedule, goToDashboard } = usePageNavigation()
+
   return (
-    <div className="min-h-screen bg-pink-50 p-8">
-      <p className="text-3xl font-bold text-pink-500">Todo Diary</p>
-    </div>
+    <main>
+      <button type="button" onClick={goToSchedule}>
+        일정
+      </button>
+
+      <button type="button" onClick={goToDashboard}>
+        대시보드
+      </button>
+    </main>
   )
 }
 
