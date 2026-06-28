@@ -21,9 +21,7 @@ function HomePage() {
 
             <div className="text-left">
               <p className="text-sm font-bold text-[#ef64ae]">Todo Diary</p>
-              <p className="text-xs font-medium text-[#9a7a91]">
-                Daily planner web
-              </p>
+              <p className="text-xs font-medium text-[#9a7a91]">Daily planner web</p>
             </div>
           </div>
 
@@ -32,8 +30,7 @@ function HomePage() {
           </h1>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[#7d667a] sm:text-lg">
-            일정과 할 일을 다이어리처럼 기록하고, 대시보드에서 하루의 흐름을
-            한눈에 확인해요.
+            일정과 할 일을 다이어리처럼 기록하고, 대시보드에서 하루의 흐름을 한눈에 확인해요.
           </p>
         </div>
 

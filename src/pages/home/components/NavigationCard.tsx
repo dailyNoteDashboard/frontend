@@ -5,12 +5,7 @@ type NavigationCardProps = {
   onClick: () => void
 }
 
-function NavigationCard({
-  icon,
-  title,
-  description,
-  onClick,
-}: NavigationCardProps) {
+function NavigationCard({ icon, title, description, onClick }: NavigationCardProps) {
   return (
     <button
       type="button"
@@ -21,13 +16,9 @@ function NavigationCard({
         {icon}
       </span>
 
-      <strong className="mt-5 text-3xl font-bold tracking-normal">
-        {title}
-      </strong>
+      <strong className="mt-5 text-3xl font-bold tracking-normal">{title}</strong>
 
-      <span className="mt-3 max-w-md text-base leading-7 text-white/85">
-        {description}
-      </span>
+      <span className="mt-3 max-w-md text-base leading-7 text-white/85">{description}</span>
 
       <span className="mt-6 h-px w-10 bg-white/35 transition group-hover:w-16" />
     </button>
