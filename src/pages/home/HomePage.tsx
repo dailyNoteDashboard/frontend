@@ -1,9 +1,9 @@
+import { useNavigate } from 'react-router-dom'
 import FloatingDecorations from './components/FloatingDecorations'
 import NavigationCard from './components/NavigationCard'
-import { usePageNavigation } from '../../shared/hooks/usePageNavigation'
 
 function HomePage() {
-  const { goToSchedule, goToDashboard } = usePageNavigation()
+  const navigate = useNavigate()
 
   return (
     <main className="relative min-h-svh overflow-hidden bg-[linear-gradient(180deg,#fffdf4_0%,#fff6fb_52%,#fffdf4_100%)] px-5 py-8 text-[#5a4153] sm:px-8 lg:px-10">
@@ -39,14 +39,14 @@ function HomePage() {
             icon="🗓️"
             title="일정"
             description="오늘의 할 일과 일정을 정리해요."
-            onClick={goToSchedule}
+            onClick={() => navigate('/schedule')}
           />
 
           <NavigationCard
             icon="📊"
             title="대시보드"
             description="완료 현황과 하루 흐름을 확인해요."
-            onClick={goToDashboard}
+            onClick={() => navigate('/dashboard')}
           />
         </div>
       </section>
