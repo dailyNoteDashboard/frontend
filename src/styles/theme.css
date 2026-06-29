@@ -1,0 +1,8 @@
+@layer base {
+  :root {
+    --font-family: system-ui, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', Arial, sans-serif;
+
+    --color-text: #111827;
+    --color-background: #ffffff;
+  }
+}

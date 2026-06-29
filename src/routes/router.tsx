@@ -1,10 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
 
 import RootLayout from '../layouts/RootLayout'
-import HomePage from '../pages/home/HomePage'
-import SchedulePage from '../pages/schedule/SchedulePage'
-import DashboardPage from '../pages/dashboard/DashboardPage'
-import NotFoundPage from '../pages/notFound/NotFoundPage'
+import LazyRoute from '../shared/components/LazyRoute'
+import { DashboardPage, HomePage, NotFoundPage, SchedulePage } from './lazyPages'
 
 const router = createBrowserRouter([
   {
@@ -13,19 +11,35 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: (
+          <LazyRoute>
+            <HomePage />
+          </LazyRoute>
+        ),
       },
       {
         path: 'schedule',
-        element: <SchedulePage />,
+        element: (
+          <LazyRoute>
+            <SchedulePage />
+          </LazyRoute>
+        ),
       },
       {
         path: 'dashboard',
-        element: <DashboardPage />,
+        element: (
+          <LazyRoute>
+            <DashboardPage />
+          </LazyRoute>
+        ),
       },
       {
         path: '*',
-        element: <NotFoundPage />,
+        element: (
+          <LazyRoute>
+            <NotFoundPage />
+          </LazyRoute>
+        ),
       },
     ],
   },

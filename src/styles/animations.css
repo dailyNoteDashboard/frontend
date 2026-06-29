@@ -1,0 +1,55 @@
+@layer utilities {
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float-slow {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+
+    50% {
+      transform: translate3d(0, -22px, 0) scale(1.05);
+    }
+  }
+
+  @keyframes float-reverse {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+
+    50% {
+      transform: translate3d(0, 24px, 0) scale(1.04);
+    }
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.7s ease-out both;
+  }
+
+  .animate-fade-up-delayed {
+    animation: fade-up 0.7s ease-out 0.16s both;
+  }
+
+  .animate-float-slow {
+    animation: float-slow 5.5s ease-in-out infinite;
+  }
+
+  .animate-float-delay {
+    animation: float-slow 6.5s ease-in-out 0.8s infinite;
+  }
+
+  .animate-float-reverse {
+    animation: float-reverse 6.8s ease-in-out infinite;
+  }
+}
