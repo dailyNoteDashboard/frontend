@@ -1,4 +1,4 @@
-function ScheudlePage() {
+function SchedulePage() {
   return (
     <section>
       <h1>일정 페이지</h1>
@@ -6,4 +6,4 @@ function ScheudlePage() {
   )
 }
 
-export default ScheudlePage
+export default SchedulePage
